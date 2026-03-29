@@ -31,3 +31,8 @@ select
 from 
    calculate_is_perfect
 group by experience
+
+
+
+
+
