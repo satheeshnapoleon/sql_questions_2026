@@ -17,7 +17,7 @@ VALUES(101, 'sohan', '3000', '11'),
 (109, 'mahesh', '7000', '12'),
 (108, 'kamal', '8000', '11');
 
-select * from emp_salary;
+
 
 
 with first_cte as 
