@@ -101,3 +101,7 @@ select
     datediff('seconds', start_time, end_time) as total_travel_time_minutes
  from get_middle_port
 where start_port = 'New York' and (end_time <= middle_flight_start_time or middle_port is null);
+
+
+
+
