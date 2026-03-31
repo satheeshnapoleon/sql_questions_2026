@@ -33,3 +33,7 @@ from
 max_salary_each_department
 group by dep_id
 order by dep_id;
+
+
+
+w
