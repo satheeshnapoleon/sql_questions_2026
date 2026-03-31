@@ -36,3 +36,11 @@ from find_next_start_time s
 inner join call_end_logs e 
 on s.phone_number = e.phone_number and ((s.start_time < e.end_time and e.end_time < s.next_call_start_time) or (s.next_call_start_time is null and s.next_call_start_time is null and s.start_time < e.end_time))
 order by s.phone_number
+
+
+create table input (
+id int,
+formula varchar(10),
+value int
+);
+insert into input values (1,'1+4',10),(2,'2+1',5),(3,'3-2',40),(4,'4-1',20);
